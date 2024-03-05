@@ -11,9 +11,9 @@
 ##    Each object in the list requires `connector_id` and `service_type`.
 ##    An example is:
 ##    connectors:
-##      - connector_id: changeme # the ID of the connector.
-##        service_type: changeme # The service type of the connector.
-##        api_key: changeme # The Elasticsearch API key used to write data into the content index.
+##      - connector_id: "8ZbFDo4BieMK4Ta5p2An"
+##        service_type: "sharepoint_online"
+##        api_key: "NjViR0RvNEJpZU1LNFRhNUdXNHE6UFJEdmxWZHJRVUN5V25acWp6N3FrUQ=="
 #connectors: []
 #
 #
@@ -241,3 +241,12 @@
 ##    An example is:
 ##    sources:
 ##      mongodb: connectors.sources.mongo:MongoDataSource
+
+connectors:
+-
+  connector_id: "8ZbFDo4BieMK4Ta5p2An"
+  service_type: "sharepoint_online"
+  api_key: "NjViR0RvNEJpZU1LNFRhNUdXNHE6UFJEdmxWZHJRVUN5V25acWp6N3FrUQ=="
+elasticsearch:
+  host: "http://localhost:9200"
+  api_key: "NjViR0RvNEJpZU1LNFRhNUdXNHE6UFJEdmxWZHJRVUN5V25acWp6N3FrUQ=="
